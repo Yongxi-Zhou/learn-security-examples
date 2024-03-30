@@ -1,3 +1,10 @@
 Briefly explain the vulnerability and why the secure version prevents the vulnerability.
+
+ The vulnerability of SQL Injection arises from improperly handled user input that can alter the intended SQL command, leading to unauthorized data access or manipulation. The secure version, which employs prepared statements and parameterized queries, prevents this by treating user input as data only, thereby preserving the integrity of the SQL command structure.
+
 Which CIA property does tampering violate?
+Availability
+
 What additional security mechanisms can you incorporate?
+
+add security for accessing
